@@ -19,7 +19,7 @@
                   
                           $.each( topics.responseJSON.topic_list.topics , function( index, topic ){
                    
-                                console.dir("Topic: "  + topic.title); 
+                                console.dir("Topic Title: "  + topic.title); 
                             });  
                     
                     });
